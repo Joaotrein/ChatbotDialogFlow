@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger chat-title="Cripto" intent="" expand agent-id="a81fa7c8-b078-4830-baa2-cb619f109681"
+        language-code="pt-br"></df-messenger>
+
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #fafafa;
+            --df-messenger-button-titlebar-color: #FFB800;
+            --df-messenger-chat-background-color: #00071f;
+            --df-messenger-font-color: black;
+            --df-messenger-send-icon: #FFB800;
+            --df-messenger-user-message: #fafafa;
+
+
+            justify-content: center;
+            margin: 0 35% 0 40px;
+            padding: 0;
+            position: fixed;
+            right: 0;
+            transform: translateX(50%) translateY(50%);
+            bottom: -90px;
+
+
+            @media(max-width: 768px) {
+                margin: 0;
+                position: relative;
+            }
+
+        }
+    </style>
+</body>
+
+</html>
